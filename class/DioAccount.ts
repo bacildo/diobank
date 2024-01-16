@@ -1,7 +1,7 @@
 export abstract class DioAccount {
   private name: string;
   private readonly accountNumber: number;
-  private balance: number = 0;
+  private balance: number;
   private status: boolean;
 
   constructor(
@@ -66,7 +66,7 @@ export abstract class DioAccount {
 export abstract class SpecialDioAccount {
   private readonly name: string;
   private readonly accountNumber: number;
-  private balance: number = 0;
+  private balance: number;
   private status: boolean;
 
   constructor(
