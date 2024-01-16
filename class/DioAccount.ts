@@ -67,7 +67,7 @@ export abstract class SpecialDioAccount {
   private readonly name: string;
   private readonly accountNumber: number;
   private balance: number = 0;
-  private status: boolean = true;
+  private status: boolean;
 
   constructor(
     name: string,
